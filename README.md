@@ -6,7 +6,7 @@ Will format phone number with selected country code, based on list of country co
 ## Ussage
 
 ### Fromat phone number
-```
+```python
 #!python
 from bphoneformat import bPhoneFormat
 
@@ -15,7 +15,7 @@ print(pf.format_phone('Venezuela', '055899889'))
 ```
 
 ### Get country keys used in **format_phone** function
-```
+```python
 #!python
 from bphoneformat import bPhoneFormat
 
@@ -24,7 +24,7 @@ print(pf.get_country_keys())
 ```
 
 ### Get country names
-```
+```python
 #!python
 from bphoneformat import bPhoneFormat
 
